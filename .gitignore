@@ -1,0 +1,17 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (генеруються автоматично кодом)
+data/*.csv
+!data/.gitkeep
+
+# Environments
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
