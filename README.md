@@ -57,10 +57,9 @@ batched_books()         calculate_streaming_stats()     find_first_book()
 [batches.py]            [analytics.py]                  [analytics.py]
 Пакетна обробка         Потокова агрегація              Early Termination
 
-Інструкція із запуску
-Склонуйте репозиторій або відкрийте кореневу папку проєкту.
-
-Переконайтеся, що встановлено Python версії 3.10 або новішої.
-
-Запустіть головний модуль конвеєра:
-python src/stream_processor/main.py
+### 8. Створення virtual environment та запуск
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -e .
+python src\stream_processor\main.py
